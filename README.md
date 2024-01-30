@@ -1,1 +1,1 @@
-# capture_device1
+# capture_device1 is a framework for the semi-automated capturing of data from inaccessible locations where the use of drones is too slow and expensive. It produces real-time analysis of it's surroundings and uses an object detection network (resnet50 backbone) to identify damage. The framework can also operate in fully-autonomous mode. 
