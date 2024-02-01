@@ -14,7 +14,7 @@ A particularly significant capabability that is described in Pad Templates in th
 (2): incandescent     - GST_NVCAM_WB_MODE_INCANDESCENT		  2000k
 (3): fluorescent      - GST_NVCAM_WB_MODE_FLUORESCENT		    3000k
 (4): warm-fluorescent - GST_NVCAM_WB_MODE_WARM_FLUORESCENT	2700k
-(5): daylight         - GST_NVCAM_WB_MODE_DAYLIGHT			    6000k
+(5): daylight         - GST_NVCAM_WB_MODE_DAYLIGHT			   6000k
 (6): cloudy-daylight  - GST_NVCAM_WB_MODE_CLOUDY_DAYLIGHT	  6500k
 (7): twilight         - GST_NVCAM_WB_MODE_TWILIGHT			    8000k
 (8): shade            - GST_NVCAM_WB_MODE_SHADE		          10000k
