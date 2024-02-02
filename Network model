@@ -23,4 +23,5 @@ data, with nearly 50% false positives.
 
 The best results were achieved by one of the two 93.6243% precision models. It exhibited 100% accuracy and was the only tested model to correctly infer
 damage in one particularly challenging data case. It exhibited a modest tendency (around 20%) towards inferring false positives (predicting damage when 
-there was none). However this represents a significant lightening of the current burden on human resources in the particular use case.
+there was none). Occasionally the bounding box that the model overlaid onto damage did not intersect precisely. However the accuracy is remarkable and
+overall the implementation of this network would represent a significant lightening of the current burden on human resources in the particular use case.
