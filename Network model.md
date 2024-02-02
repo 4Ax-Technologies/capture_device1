@@ -14,7 +14,7 @@ At this point there were only 2 main parameters that were still being tweaked, o
 training data before training commenced. Moving from 1/4 x 1/4 of the capture device resolution, through 1/3 x 1/3 and then 1/2 x 1/2 resizing 
 brought improvements in precision while remaining within operating capabilities. 
 
-The top five performing models in precision eveluation were then tested with the holdback test material and the resulting images in each case 
+The top five performing models in precision evaluation were then tested with the holdback test material and the resulting images in each case 
 were assessed. It was noted that a single 1/3 x 1/3 50 epoch instance achieved a precison score of 95.108%, while the next 4 models were all 
 1/2 x 1/2 60 epoch models and yielded results between 93.6243% and 93.5988%. The results demonstrated that for this specific used case accuracy 
 (getting the class right) was more important than precision (drawing the bounding box in exactly the right place). In an autonomous vehicle 
