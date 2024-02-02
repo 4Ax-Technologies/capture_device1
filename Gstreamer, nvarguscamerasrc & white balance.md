@@ -41,7 +41,7 @@ It is unfortunate (some might say an oversight) not to provide a neutral 4000k s
 
 The choice of mode setting will depend on the individual use case: location, hardware and training data.
 
-2 watch outs:
+# 2 watch outs:
 
 *  Consider whether damage could potentially cause a mismatch with training data if in "(1): auto" mode
 *  
