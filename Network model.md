@@ -1,3 +1,5 @@
+# DamageDetectnet50
+
 DamageDetectnet50 is a detectnet_v2 50 layer network model retrained on 4Ax's damage0.2 database using appropriate data augmentation.
 
 Damage used for training included cracking of various types and sizes, deep scorching caused by lightning strikes and a range of delamination 
