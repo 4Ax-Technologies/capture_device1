@@ -21,7 +21,10 @@ The test folder contained a 50/50 split of "healthy" and "damage" data. The 95.1
 the time) to false negative inferences when presented with data containing damage; it was also similarly imprecise when it came to classifying healthy
 data, with nearly 50% false positives.
 
-The best results were achieved by one of the two 93.6243% precision models. It exhibited 100% accuracy and was the only tested model to correctly infer
-damage in one particularly challenging data case. It exhibited a modest tendency (around 20%) towards inferring false positives (predicting damage when 
-there was none). Occasionally the bounding box that the model overlaid onto damage did not intersect precisely. However the accuracy is remarkable and
-overall the implementation of this network would represent a significant lightening of the current burden on human resources in the particular use case.
+A 93.5988% precision model delivered 100% accuracy, but this achievement was somewhat undermined by an unacceptably high tendency (nearly 60%) to infer 
+false positives (predicting damage when there was none).
+
+The best results were achieved by one of the two 93.6243% precision models. It exhibited 100% accuracy. It exhibited a more modest tendency (around 20%) 
+towards inferring false positives. Occasionally the bounding box that the model overlaid onto damage did not intersect precisely. However the accuracy is 
+remarkable and overall the implementation of this network would represent a significant lightening of the current burden on human resources in the particular 
+use case.
