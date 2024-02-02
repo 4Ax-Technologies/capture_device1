@@ -43,7 +43,8 @@ The choice of mode setting will depend on the individual use case: location, har
 
 # 2 watch outs:
 
-*  Consider whether damage could potentially cause a mismatch with training data if in "(1): auto" mode
+*  Consider whether damage could potentially affect the white balance and thus cause a mismatch with training data if in
+"(1): auto" mode
    
 *  The default setting for "(9): manual" is unuseable: Gstreamer uses R:G:G:B values (Bayer-based) to set colour temperature 
 and the default values are 0.5:0.5:0.5:0.5, which will cause under-exposed images with a strong green bias in most cases
