@@ -21,5 +21,5 @@ the time) to false negative inferences when presented with data containing damag
 data, with nearly 50% false positives.
 
 The best results were achieved by one of the two 93.6243% precision models. It exhibited 100% accuracy and was the only tested model to correctly infer
-damage in one particularly challenging data case. It exhibited a modest tendency (around 20%) towards inferring false positives (predicting damage when there 
-was none). However this represents a significant lightening of the current burden on human resources in the particular use case.
+damage in one particularly challenging data case. It exhibited a modest tendency (around 20%) towards inferring false positives (predicting damage when 
+there was none). However this represents a significant lightening of the current burden on human resources in the particular use case.
