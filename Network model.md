@@ -10,7 +10,7 @@ class, where each image has a matching label, consisting of coordinates of the d
 single class was implemented precision scores in the evaluation phase of 90%+ were routinely achieved. The number of train epochs was therefore 
 gradually increased until 93% was routinely achieved at 30 epochs. 
 
-At this point there were only 2 main parameters that were still being tweaked, one of which was the pixel resolution to which the model resized 
+At this point only 2 main parameters were still being tweaked, one of which was the pixel resolution to which the model resized 
 training data before training commenced. Moving from 1/4 x 1/4 of the capture device resolution, through 1/3 x 1/3 and then 1/2 x 1/2 resizing 
 brought improvements in precision while remaining within operating capabilities. 
 
