@@ -30,6 +30,6 @@ On Linux (Nano), you may need to install the scrot application, and Tkinter in
 
 	sudo apt-get install scrot
 	
-	from 4Aspyx import
+from 4Aspyx import
  
- 	RCdist1.py, RCmotor1.py, RClights1.py, RCalertLED1s.py, RC2cameraCap1, RCDamageDetectnet50
+RCdist1.py, RCmotor1.py, RClights1.py, RCalertLED1s.py, RC2cameraCap1, RCDamageDetectnet50
