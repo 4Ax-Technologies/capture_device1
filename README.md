@@ -4,7 +4,7 @@ capture_device1 is a framework for the semi-automated capturing of data from ina
 
 Information is provided here on:
 
-  Gstreamer, nvarguscamerasrc & white balance
+  [Gstreamer, nvarguscamerasrc & white balance]
   
   damagedetect50 network model
   
