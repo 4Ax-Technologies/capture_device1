@@ -37,7 +37,7 @@ The kelvin colour temperature figures have been added.
 
 Some of these figures are somewhat contested by rival online resources
 
-It is unfortunate (some might say an oversight) not to provide a neutral 4000k setting (try "(0): off"
+It is unfortunate (some might say an oversight) not to provide a neutral 4000k setting (try "(0): off")
 
 The choice of mode setting will depend on the individual use case: location, hardware and training data.
 
