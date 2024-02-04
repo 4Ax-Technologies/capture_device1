@@ -8,7 +8,7 @@ currently confidential. However the overarching architecture is clearly defined 
 
 open cv2 and python 3.6 & 3.8 need to be installed on capture device/Hardware/Nano
 
-debugging needs to be completed on Linux computer as opencv-python wheel will not build on (e.g) Mac OS 10.15
+debugging needs to be completed on a Linux computer or virtual environment as opencv-python wheel will not build on (e.g) Mac OS 10.15
 
 the pyautogui script will work for HD (1920 x 1080) displays. In the event of a customer using a different display, this would need to be instantiated. Customers would be required to standardise their hardware (i.e not allow technicians to use their personal mobile/tablet/laptop).    
 
