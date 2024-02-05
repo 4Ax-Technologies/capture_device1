@@ -35,7 +35,7 @@ wbmode         : White balance affects the color temperature of the photo
 
 The kelvin colour temperature figures have been added.
 
-Some of these figures are somewhat contested by rival online resources
+Some of the colour temperature figures vary somewhat depending on the online source
 
 It is unfortunate (some might say an oversight) not to provide a neutral 4000k setting (try "(0): off")
 
