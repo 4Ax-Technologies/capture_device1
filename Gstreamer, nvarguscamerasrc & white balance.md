@@ -1,4 +1,4 @@
-# Gstreamer
+# Gstreamer, nvarguscamerasrc & white balance
 
 The Gstreamer manual is at: https://gstreamer.freedesktop.org/documentation/tutorials/basic/gstreamer-tools.html?gi-language=c
 https://gstreamer.freedesktop.org/documentation/
