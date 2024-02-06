@@ -27,11 +27,11 @@ The test folder contained a 50/50 split of "healthy" and "damage" data. The 95.1
 (nearly 50% of the time) to false negative inferences when presented with data containing damage; it was also similarly imprecise when it came 
 to classifying healthy data, with nearly 50% false positives.
 
-A 93.5988% precision model delivered 100% accuracy, but this achievement was somewhat undermined by an unacceptably high tendency (nearly 60%) 
+A 93.5988% precision model delivered 100% accuracy, but this achievement was undermined by an unacceptably high tendency (nearly 60%) 
 to infer false positives (predicting damage when there was none). This would quickly become irritating for the inspection technician, who would 
 feel personally validated when occasionally being required to step in to overrule the network, but not in 60% of cases.
 
-The best results were achieved by one of the two 93.6243% precision models. It also exhibited 100% accuracy. However it showeded a more modest tendency 
+The best results were achieved by one of the two 93.6243% precision models. It also exhibited 100% accuracy. However it showed a more modest tendency 
 (around 20%) towards inferring false positives. Occasionally the bounding box that the model overlaid onto damage did not intersect precisely. 
 However the accuracy is remarkable and overall the implementation of this network would represent a significant lightening of the current burden 
 on human resources in the particular use case.
