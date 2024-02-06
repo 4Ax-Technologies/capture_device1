@@ -33,7 +33,7 @@ wbmode         : White balance affects the color temperature of the photo
 
 (9): manual           - GST_NVCAM_WB_MODE_MANUAL
 
-*  The kelvin colour temperature figures have been added to the factory details by 4Ax.
+*  The (kelvin colour temperature figures) have been added to the factory details by 4Ax.
 
 *  Some of the colour temperature figures may vary somewhat depending on the online source
 
