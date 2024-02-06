@@ -19,7 +19,7 @@ improvements in precision while remaining within operating capabilities.
 
 The top five performing models in precision evaluation were then tested with the holdback test material and the resulting images in each case 
 were assessed. It was noted that a single 1/3 x 1/3 50 epoch instance achieved a precision score of 95.108%, while the next 4 models were all 
-1/2 x 1/2 60 epoch models and yielded results between 93.6243% and 93.5988%. The results demonstrated that for this specific used case accuracy 
+1/2 x 1/2 60 epoch models and yielded results between 93.6243% and 93.5988%. The results demonstrated that for this specific use case accuracy 
 (getting the class right) was more important than precision (drawing the bounding box in exactly the right place). In an autonomous vehicle 
 application precision would be more important.
 
