@@ -17,29 +17,29 @@ wbmode         : White balance affects the color temperature of the photo
 
 (1): auto             - GST_NVCAM_WB_MODE_AUTO
 
-(2): incandescent     - GST_NVCAM_WB_MODE_INCANDESCENT          2000k
+(2): incandescent     - GST_NVCAM_WB_MODE_INCANDESCENT          (2000k)
 
-(3): fluorescent      - GST_NVCAM_WB_MODE_FLUORESCENT           3000k
+(3): fluorescent      - GST_NVCAM_WB_MODE_FLUORESCENT           (3000k)
 
-(4): warm-fluorescent - GST_NVCAM_WB_MODE_WARM_FLUORESCENT      2700k
+(4): warm-fluorescent - GST_NVCAM_WB_MODE_WARM_FLUORESCENT      (2700k)
 
-(5): daylight         - GST_NVCAM_WB_MODE_DAYLIGHT		          6000k
+(5): daylight         - GST_NVCAM_WB_MODE_DAYLIGHT		          (6000k)
 
-(6): cloudy-daylight  - GST_NVCAM_WB_MODE_CLOUDY_DAYLIGHT	      6500k
+(6): cloudy-daylight  - GST_NVCAM_WB_MODE_CLOUDY_DAYLIGHT	      (6500k)
 
-(7): twilight         - GST_NVCAM_WB_MODE_TWILIGHT		          8000k
+(7): twilight         - GST_NVCAM_WB_MODE_TWILIGHT		          (8000k)
 
-(8): shade            - GST_NVCAM_WB_MODE_SHADE		              10000k
+(8): shade            - GST_NVCAM_WB_MODE_SHADE		              (10000k)
 
 (9): manual           - GST_NVCAM_WB_MODE_MANUAL
 
-The kelvin colour temperature figures have been added.
+*  The kelvin colour temperature figures have been added to the factory details by 4Ax.
 
-Some of the colour temperature figures vary somewhat depending on the online source
+*  Some of the colour temperature figures may vary somewhat depending on the online source
 
-It is unfortunate (some might say an oversight) not to provide a neutral 4000k setting (try "(0): off")
+*  It is unfortunate (some might say an oversight) not to provide a neutral 4000k setting (try "(0): off")
 
-The choice of mode setting will depend on the individual use case: location, hardware and training data.
+*  The choice of mode setting will depend on the individual use case: location, hardware and training data.
 
 # 2 watch outs:
 
