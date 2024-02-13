@@ -38,3 +38,30 @@ from __4Aspyx__ import:
 *	RCalertLED1s.py
 *	RC2cameraCap1
 *	RCDamageDetectnet50
+
+# import glob						]
+# import sys						sys may need installing on Nano
+# import pandas as pd					]
+# import pathlib
+
+import Jetson.GPIO as GPIO
+from threading import Thread
+from gi.repository import Gst, GObject
+import cv2
+import numpy as np
+import pyautogui
+import Xlib
+import time
+import os
+
+
+GPIO.setmode(GPIO.BOARD)			# gpio numbers set according to board pin layout
+
+def configure_gpio():
+  
+	GPIO.setup(11, GPIO.OUT, initial=GPIO.LOW)	# LEDs GPIO  (GPIO11) set to output and low
+	GPIO.setup(7,  GPIO.OUT, initial=GPIO.LOW)	# motor GPIO (GPIO7) set to output and low
+	GPIO.setup(2,  GPIO.OUT, initial=GPIO.LOW)	# LED GPIO (GPIO2) set to output and low
+	GPIO.setup(4,  GPIO.OUT, initial=GPIO.LOW)	# LED GPIO (GPIO4) set to output and low
+
+configure_gpio()
