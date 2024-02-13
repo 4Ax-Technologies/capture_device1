@@ -39,10 +39,10 @@ from __4Aspyx__ import:
 *	RC2cameraCap1
 *	RCDamageDetectnet50
 
-# import glob						]
-# import sys						sys may need installing on Nano
-# import pandas as pd					]
-# import pathlib
+__import glob__						
+__import sys__						
+__import pandas__ as __pd__					
+__import pathlib__
 
 import Jetson.GPIO as GPIO
 from threading import Thread
