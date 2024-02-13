@@ -6,8 +6,8 @@ capture_device1 is a framework for the semi-automated capturing of data from ina
 
 Information is provided here on:
 
-  [__Gstreamer, nvarguscamerasrc & white balance__]
+__Gstreamer, nvarguscamerasrc & white balance__
   
-  [__damagedetect50 network model__]
+__damagedetect50 network model__
   
-  [__rc1_run.py program architecture__]
+__rc1_run.py program architecture__
