@@ -30,14 +30,19 @@ On Linux (Nano), you may need to install the scrot application, and Tkinter in
 
 	sudo apt-get install scrot
 	
-from __4Aspyx__ import:
+from __4Aspyx import:__
  
-*	RCdist1.py
-*	RCmotor1.py
-*	RClights1.py
-*	RCalertLED1s.py
-*	RC2cameraCap1
-*	RCDamageDetectnet50
+__RCdist1.py__
+
+__RCmotor1.py__
+
+__RClights1.py__
+
+__RCalertLED1s.py__
+
+__RC2cameraCap1__
+
+__RCDamageDetectnet50__
 
 __import glob__	
 
@@ -66,13 +71,13 @@ __import time__
 __import os__
 
 
-GPIO.setmode(GPIO.BOARD)			### gpio numbers set according to board pin layout
+`GPIO.setmode(GPIO.BOARD)`			_### gpio numbers set according to board pin layout_
 
-def configure_gpio():
+`def configure_gpio():`
   
-	GPIO.setup(11, GPIO.OUT, initial=GPIO.LOW)	# LEDs GPIO  (GPIO11) set to output and low
-	GPIO.setup(7,  GPIO.OUT, initial=GPIO.LOW)	# motor GPIO (GPIO7) set to output and low
-	GPIO.setup(2,  GPIO.OUT, initial=GPIO.LOW)	# LED GPIO (GPIO2) set to output and low
-	GPIO.setup(4,  GPIO.OUT, initial=GPIO.LOW)	# LED GPIO (GPIO4) set to output and low
+`GPIO.setup(11, GPIO.OUT, initial=GPIO.LOW)`	# LEDs GPIO  (GPIO11) set to output and low
+`GPIO.setup(7,  GPIO.OUT, initial=GPIO.LOW)`	# motor GPIO (GPIO7) set to output and low
+`GPIO.setup(2,  GPIO.OUT, initial=GPIO.LOW)`	# LED GPIO (GPIO2) set to output and low
+`GPIO.setup(4,  GPIO.OUT, initial=GPIO.LOW)`	# LED GPIO (GPIO4) set to output and low
 
-configure_gpio()
+`configure_gpio()`
