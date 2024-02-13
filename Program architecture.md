@@ -30,42 +30,30 @@ On Linux (Nano), you may need to install the scrot application, and Tkinter in
 
 	sudo apt-get install scrot
 	
-from __4Aspyx import:__
+from __4Aspyx:__
  
-__RCdist1.py__  
-__RCmotor1.py__  
-__RClights1.py__  
-__RCalertLED1s.py__  
-__RC2cameraCap1__
-
+__import RCdist1.py__  
+__import RCmotor1.py__  
+__import RClights1.py__  
+__import RCalertLED1s.py__  
+__import RC2cameraCap1__  
 __RCDamageDetectnet50__
 
-__import glob__	
-
-__import sys__	
-
-__import pandas__ as __pd__
-
-__import pathlib__
-
+__import glob__	  
+__import sys__	  
+__import pandas__ as __pd__  
+__import pathlib__  
 __import Jetson.GPIO__ as __GPIO__ 
 
-from threading __import Thread__
-
+from threading __import Thread__  
 from gi.repository __import Gst, GObject__
 
-__import cv2__
-
-__import numpy__ as __np__
-
+__import cv2__  
+__import numpy__ as __np__  
 __import pyautogui__
-
-__import Xlib__
-
-__import time__
-
+__import Xlib__  
+__import time__  
 __import os__
-
 
 `GPIO.setmode(GPIO.BOARD)`			_### gpio numbers set according to board pin layout_
 
