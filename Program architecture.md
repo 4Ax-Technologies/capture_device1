@@ -32,14 +32,10 @@ On Linux (Nano), you may need to install the scrot application, and Tkinter in
 	
 from __4Aspyx import:__
  
-__RCdist1.py__
-
-__RCmotor1.py__
-
-__RClights1.py__
-
-__RCalertLED1s.py__
-
+__RCdist1.py__  
+__RCmotor1.py__  
+__RClights1.py__  
+__RCalertLED1s.py__  
 __RC2cameraCap1__
 
 __RCDamageDetectnet50__
