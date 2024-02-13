@@ -75,9 +75,12 @@ __import os__
 
 `def configure_gpio():`
   
-`GPIO.setup(11, GPIO.OUT, initial=GPIO.LOW)`	# LEDs GPIO  (GPIO11) set to output and low
-`GPIO.setup(7,  GPIO.OUT, initial=GPIO.LOW)`	# motor GPIO (GPIO7) set to output and low
-`GPIO.setup(2,  GPIO.OUT, initial=GPIO.LOW)`	# LED GPIO (GPIO2) set to output and low
-`GPIO.setup(4,  GPIO.OUT, initial=GPIO.LOW)`	# LED GPIO (GPIO4) set to output and low
+`GPIO.setup(11, GPIO.OUT, initial=GPIO.LOW)`	_# LEDs GPIO  (GPIO11) set to output and low_
+
+`GPIO.setup(7,  GPIO.OUT, initial=GPIO.LOW)`	_# motor GPIO (GPIO7) set to output and low_
+
+`GPIO.setup(2,  GPIO.OUT, initial=GPIO.LOW)`	_# LED GPIO (GPIO2) set to output and low_
+
+`GPIO.setup(4,  GPIO.OUT, initial=GPIO.LOW)`	_# LED GPIO (GPIO4) set to output and low_
 
 `configure_gpio()`
