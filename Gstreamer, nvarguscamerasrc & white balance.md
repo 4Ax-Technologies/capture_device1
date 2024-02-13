@@ -46,5 +46,5 @@ wbmode         : White balance affects the color temperature of the photo
 *  Consider whether damage could potentially affect the white balance and thus cause a mismatch with training data if in
 "(1): auto" mode
    
-*  The default setting for "(9): manual" is unuseable: Gstreamer uses R:G:G:B values (Bayer-based) to set colour temperature 
-and the default values are 0.5:0.5:0.5:0.5, which will cause under-exposed images with a strong green bias in most cases
+*  "(9): manual" might look like an attractive option but it's default setting is unuseable: Gstreamer uses R:G~even~:G~odd~:B values (Bayer-based) to set colour temperature 
+and the default values are 0.5:0.5:0.5:0.5, which will cause under-exposed images with a strong green bias in most use cases
