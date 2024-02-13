@@ -66,7 +66,7 @@ __import time__
 __import os__
 
 
-GPIO.setmode(GPIO.BOARD)			# gpio numbers set according to board pin layout
+GPIO.setmode(GPIO.BOARD)			### gpio numbers set according to board pin layout
 
 def configure_gpio():
   
