@@ -17,19 +17,19 @@ wbmode         : White balance affects the color temperature of the photo
 
 (1): auto             - GST_NVCAM_WB_MODE_AUTO
 
-(2): incandescent     - GST_NVCAM_WB_MODE_INCANDESCENT          (2000k)
+(2): incandescent     - GST_NVCAM_WB_MODE_INCANDESCENT |         (2000k)
 
-(3): fluorescent      - GST_NVCAM_WB_MODE_FLUORESCENT           (3000k)
+(3): fluorescent      - GST_NVCAM_WB_MODE_FLUORESCENT  |        (3000k)
 
-(4): warm-fluorescent - GST_NVCAM_WB_MODE_WARM_FLUORESCENT      (2700k)
+(4): warm-fluorescent - GST_NVCAM_WB_MODE_WARM_FLUORESCENT  |    (2700k)
 
-(5): daylight         - GST_NVCAM_WB_MODE_DAYLIGHT		          (6000k)
+(5): daylight         - GST_NVCAM_WB_MODE_DAYLIGHT		  |        (6000k)
 
-(6): cloudy-daylight  - GST_NVCAM_WB_MODE_CLOUDY_DAYLIGHT	      (6500k)
+(6): cloudy-daylight  - GST_NVCAM_WB_MODE_CLOUDY_DAYLIGHT	 |     (6500k)
 
-(7): twilight         - GST_NVCAM_WB_MODE_TWILIGHT		          (8000k)
+(7): twilight         - GST_NVCAM_WB_MODE_TWILIGHT		  |        (8000k)
 
-(8): shade            - GST_NVCAM_WB_MODE_SHADE		              (10000k)
+(8): shade            - GST_NVCAM_WB_MODE_SHADE		       |       (10000k)
 
 (9): manual           - GST_NVCAM_WB_MODE_MANUAL
 
