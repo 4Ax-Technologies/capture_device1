@@ -37,7 +37,7 @@ wbmode         : White balance affects the color temperature of the photo
 
 *  Some of the colour temperature figures may vary somewhat depending on the online source
 
-*  It is unfortunate (some might say an oversight) not to provide a neutral 4000k setting (try "(0): off")
+*  It is unfortunate (some might say an oversight) that a neutral 4000k setting is not provided (perhaps try "(0): off")
 
 *  The choice of mode setting will depend on the individual use case: location, hardware and training data.
 
