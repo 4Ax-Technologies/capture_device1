@@ -39,9 +39,12 @@ from __4Aspyx__ import:
 *	RC2cameraCap1
 *	RCDamageDetectnet50
 
-__import glob__						
-__import sys__						
-__import pandas__ as __pd__					
+__import glob__	
+
+__import sys__	
+
+__import pandas__ as __pd__
+
 __import pathlib__
 
 import Jetson.GPIO as GPIO
