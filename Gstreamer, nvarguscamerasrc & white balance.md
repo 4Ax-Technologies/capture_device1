@@ -41,7 +41,7 @@ wbmode         : White balance affects the color temperature of the photo
 
 *  The choice of mode setting will depend on the individual use case: location, hardware and training data.
 
-# 2 watch outs:
+### 2 watch outs:
 
 *  Consider whether damage could potentially affect the white balance and thus cause a mismatch with training data if in
 "(1): auto" mode
