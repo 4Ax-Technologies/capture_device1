@@ -47,15 +47,23 @@ __import pandas__ as __pd__
 
 __import pathlib__
 
-import Jetson.GPIO as GPIO
-from threading import Thread
-from gi.repository import Gst, GObject
-import cv2
-import numpy as np
-import pyautogui
-import Xlib
-import time
-import os
+__import Jetson.GPIO__ as __GPIO__ 
+
+from threading __import Thread__
+
+from gi.repository __import Gst, GObject__
+
+__import cv2__
+
+__import numpy__ as __np__
+
+__import pyautogui__
+
+__import Xlib__
+
+__import time__
+
+__import os__
 
 
 GPIO.setmode(GPIO.BOARD)			# gpio numbers set according to board pin layout
