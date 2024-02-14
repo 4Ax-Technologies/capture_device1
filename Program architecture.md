@@ -24,9 +24,9 @@ pip3 install pyautogui
 
 On Linux (Nano), you may need to install the scrot application, and Tkinter in the following order:
 
-	`sudo apt-get install python3-tk`  
-	`sudo apt-get install python3-dev`  
-	`sudo apt-get install scrot`  
+	sudo apt-get install python3-tk     
+	sudo apt-get install python3-dev  
+	sudo apt-get install scrot  
 	
 `import glob`	  
 `import sys`	  
@@ -94,5 +94,23 @@ _### send 'next slide' command (running) to remote (UI) slide deck_
 `from 4Aspyx:import RCalertLED1s.py`  
 `from 4Aspyx: import RCmotor1.py`  
 
-_### these light green LED; run motor; alert if damage data is present by switching green LED off and red LED on_ 
+_### these light green LED; run motor; alert if damage data is present by switching green LED off and red LED on;_  
+_### finally tge motor is run in reverse, returning the capture device to it's point of origin  
+
+_### send 'next slide' command (completed) to remote (UI) slide deck_  
+
+`pyautogui.moveTo (x=210, y=950)`  
+`pyautogui.click`  
+
+`time.sleep(10)`  
+
+_### send 'next slide' command (reset to first slide: 4Ax Technologies) to remote (UI) slide deck_ 
+
+`pyautogui.moveTo (x=210, y=270)`
+`pyautogui.click`
+
+
+`GPIO.cleanup()`
+
+
 
