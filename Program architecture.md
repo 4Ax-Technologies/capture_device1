@@ -31,11 +31,9 @@ On Linux (Nano), you may need to install the scrot application, and Tkinter in
 	sudo apt-get install scrot
 	
 from __4Aspyx:__
- 
-__import RCdist1.py__  
+   
 __import RCmotor1.py__   
-__import RCalertLED1s.py__  
-__import RC2cameraCap1__  
+__import RCalertLED1s.py__    
 __RCDamageDetectnet50__
 
 __import glob__	  
@@ -79,7 +77,7 @@ _### send 'next slide' command (launching) to remote (UI) slide deck_
 `pyautogui.click`  
 `time.sleep(5)`
 
-`from __4Aspyx:__ import RClights1.py`  
+`from 4Aspyx: import RClights1.py`  
 
 _### send 'next slide' command (scanning) to remote (UI) slide deck_
 
@@ -87,3 +85,15 @@ _### send 'next slide' command (scanning) to remote (UI) slide deck_
 `pyautogui.click`  
 
 `lights_on()`
+
+`from __4Aspyx: import RCdist1.py`  
+
+`print (d)`			_### d = number of seconds of capture device travel_
+
+`from 4Aspyx: import RC2cameraCap.py`
+
+_### RC2cameraCap.py captures synch frames from 2 CSI cameras and saves to separate folders_
+
+
+
+
