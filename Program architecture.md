@@ -28,21 +28,21 @@ On Linux (Nano), you may need to install the scrot application, and Tkinter in
 	`sudo apt-get install python3-dev`  
 	`sudo apt-get install scrot`  
 	
-`__import glob__`	  
-`__import sys__`	  
-`__import pandas__ as __pd__`  
-`__import pathlib__`  
-`__import Jetson.GPIO__ as __GPIO__` 
+`import glob`	  
+`import sys`	  
+`import pandas as pd`  
+`import pathlib`  
+`import Jetson.GPIO as GPIO` 
 
-`from threading __import Thread__`  
-`from gi.repository __import Gst, GObject__`
+`from threading import Thread`  
+`from gi.repository import Gst, GObject`
 
-`__import cv2__`  
-`__import numpy__ as __np__`  
-`__import pyautogui__ ` 
-`__import Xlib__`  
-`__import time__`  
-`__import os__`
+`import cv2`  
+`import numpy as np`  
+`import pyautogui` 
+`import Xlib`  
+`import time`  
+`import os`
 
 _### gpio numbers set according to board pin layout_  
 `GPIO.setmode(GPIO.BOARD)`			
@@ -91,8 +91,8 @@ _### send 'next slide' command (running) to remote (UI) slide deck_
 	`pyautogui.moveTo (x=210, y=750)
 	pyautogui.click  
 
-`from 4Aspyx:import RCalertLED1s.py`
+`from 4Aspyx:import RCalertLED1s.py`  
 `from 4Aspyx: import RCmotor1.py`  
 
-_### these light green LED; run motor; alert if damage data is present by switching green off and red LED on_ 
+_### these light green LED; run motor; alert if damage data is present by switching green LED off and red LED on_ 
 
