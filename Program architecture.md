@@ -74,9 +74,9 @@ _### send 'next slide' command (launching) to remote (UI) slide deck_
 `class g:`
 `xDisplay = "192.168.1.1"`	_### placeholder for remote address_
 
-`pyautogui.platformModule._display = Xlib.display.Display (g.xDisplay)`
-`pyautogui.moveTo (x=210, y=440)`
-`pyautogui.click`
+`pyautogui.platformModule._display = Xlib.display.Display (g.xDisplay)`  
+`pyautogui.moveTo (x=210, y=440)`  
+`pyautogui.click`  
 `time.sleep(5)`
 
 `from __4Aspyx:__ import RClights1.py`  
