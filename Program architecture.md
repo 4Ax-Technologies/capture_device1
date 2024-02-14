@@ -33,8 +33,7 @@ On Linux (Nano), you may need to install the scrot application, and Tkinter in
 from __4Aspyx:__
  
 __import RCdist1.py__  
-__import RCmotor1.py__  
-__import RClights1.py__  
+__import RCmotor1.py__   
 __import RCalertLED1s.py__  
 __import RC2cameraCap1__  
 __RCDamageDetectnet50__
@@ -67,4 +66,23 @@ __import os__
 
 `GPIO.setup(4,  GPIO.OUT, initial=GPIO.LOW)`	_### LED GPIO (GPIO4) set to output and low_
 
-`configure_gpio()`
+`configure_gpio()`  
+
+# send 'next slide' command (launching) to remote (UI) slide deck
+
+class g:
+xDisplay = "192.168.1.1"	_### placeholder for remote address_
+
+pyautogui.platformModule._display = Xlib.display.Display (g.xDisplay)
+pyautogui.moveTo (x=210, y=440)
+pyautogui.click
+time.sleep(5)
+
+from __4Aspyx:__ import RClights1.py  
+
+# send 'next slide' command (scanning) to slide deck on remote machine
+
+pyautogui.moveTo (x=210, y=595)  
+pyautogui.click  
+
+lights_on()
