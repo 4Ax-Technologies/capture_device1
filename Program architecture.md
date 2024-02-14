@@ -39,7 +39,7 @@ On Linux (Nano), you may need to install the scrot application, and Tkinter in
 
 `import cv2`  
 `import numpy as np`  
-`import pyautogui` 
+`import pyautogui`  
 `import Xlib`  
 `import time`  
 `import os`
