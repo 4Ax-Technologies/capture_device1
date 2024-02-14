@@ -71,19 +71,19 @@ _### gpio numbers set according to board pin layout_
 
 _### send 'next slide' command (launching) to remote (UI) slide deck_ 
 
-class g:
-xDisplay = "192.168.1.1"	_### placeholder for remote address_
+`class g:`
+`xDisplay = "192.168.1.1"`	_### placeholder for remote address_
 
-pyautogui.platformModule._display = Xlib.display.Display (g.xDisplay)
-pyautogui.moveTo (x=210, y=440)
-pyautogui.click
-time.sleep(5)
+`pyautogui.platformModule._display = Xlib.display.Display (g.xDisplay)`
+`pyautogui.moveTo (x=210, y=440)`
+`pyautogui.click`
+`time.sleep(5)`
 
-from __4Aspyx:__ import RClights1.py  
+`from __4Aspyx:__ import RClights1.py`  
 
 _### send 'next slide' command (scanning) to remote (UI) slide deck_
 
-pyautogui.moveTo (x=210, y=595)  
-pyautogui.click  
+`pyautogui.moveTo (x=210, y=595)`  
+`pyautogui.click`  
 
-lights_on()
+`lights_on()`
