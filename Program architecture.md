@@ -24,33 +24,25 @@ pip3 install pyautogui
 
 On Linux (Nano), you may need to install the scrot application, and Tkinter in the following order:
 
-	sudo apt-get install python3-tk
-
-	sudo apt-get install python3-dev
-
-	sudo apt-get install scrot
+	`sudo apt-get install python3-tk`  
+	`sudo apt-get install python3-dev`  
+	`sudo apt-get install scrot`  
 	
-from __4Aspyx:__
-   
-__import RCmotor1.py__   
-__import RCalertLED1s.py__    
-__RCDamageDetectnet50__
+`__import glob__`	  
+`__import sys__`	  
+`__import pandas__ as __pd__`  
+`__import pathlib__`  
+`__import Jetson.GPIO__ as __GPIO__` 
 
-__import glob__	  
-__import sys__	  
-__import pandas__ as __pd__  
-__import pathlib__  
-__import Jetson.GPIO__ as __GPIO__ 
+`from threading __import Thread__`  
+`from gi.repository __import Gst, GObject__`
 
-from threading __import Thread__  
-from gi.repository __import Gst, GObject__
-
-__import cv2__  
-__import numpy__ as __np__  
-__import pyautogui__  
-__import Xlib__  
-__import time__  
-__import os__
+`__import cv2__`  
+`__import numpy__ as __np__`  
+`__import pyautogui__ ` 
+`__import Xlib__`  
+`__import time__`  
+`__import os__`
 
 _### gpio numbers set according to board pin layout_  
 `GPIO.setmode(GPIO.BOARD)`			
@@ -92,8 +84,15 @@ _### send 'next slide' command (scanning) to remote (UI) slide deck_
 
 `from 4Aspyx: import RC2cameraCap.py`
 
-_### RC2cameraCap.py captures synch frames from 2 CSI cameras and saves to separate folders_
+_### RC2cameraCap.py captures synch frames from 2 CSI cameras and saves to separate folders_  
 
+_### send 'next slide' command (running) to remote (UI) slide deck_  
 
+	`pyautogui.moveTo (x=210, y=750)
+	pyautogui.click  
 
+`from 4Aspyx:import RCalertLED1s.py`
+`from 4Aspyx: import RCmotor1.py`  
+
+_### these light green LED; run motor; alert if damage data is present by switching green off and red LED on_ 
 
