@@ -49,7 +49,7 @@ from gi.repository __import Gst, GObject__
 
 __import cv2__  
 __import numpy__ as __np__  
-__import pyautogui__
+__import pyautogui__  
 __import Xlib__  
 __import time__  
 __import os__
