@@ -45,16 +45,14 @@ On Linux (Nano), you may need to install the scrot application, and Tkinter in
 `import os`
 
 _### gpio numbers set according to board pin layout_  
+
 `GPIO.setmode(GPIO.BOARD)`			
 
 `def configure_gpio():`
   
-`GPIO.setup(11, GPIO.OUT, initial=GPIO.LOW)`	_### LEDs GPIO  (GPIO11) set to output and low_
-
-`GPIO.setup(7,  GPIO.OUT, initial=GPIO.LOW)`	_### motor GPIO (GPIO7) set to output and low_
-
-`GPIO.setup(2,  GPIO.OUT, initial=GPIO.LOW)`	_### LED GPIO (GPIO2) set to output and low_
-
+`GPIO.setup(11, GPIO.OUT, initial=GPIO.LOW)`	_### LEDs GPIO  (GPIO11) set to output and low_  
+`GPIO.setup(7,  GPIO.OUT, initial=GPIO.LOW)`	_### motor GPIO (GPIO7) set to output and low_  
+`GPIO.setup(2,  GPIO.OUT, initial=GPIO.LOW)`	_### LED GPIO (GPIO2) set to output and low_  
 `GPIO.setup(4,  GPIO.OUT, initial=GPIO.LOW)`	_### LED GPIO (GPIO4) set to output and low_
 
 `configure_gpio()`  
