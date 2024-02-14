@@ -93,7 +93,7 @@ _### send 'next slide' command (running) to remote (UI) slide deck_
 `from 4Aspyx: import RCmotor1.py`  
 
 _### these light green LED; run motor; alert if damage data is present by switching green LED off and red LED on;_  
-_### finally tge motor is run in reverse, returning the capture device to it's point of origin  
+_### finally the motor is run in reverse, returning the capture device to it's point of origin  
 
 _### send 'next slide' command (completed) to remote (UI) slide deck_  
 
