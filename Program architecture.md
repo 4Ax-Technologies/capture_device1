@@ -68,7 +68,7 @@ __import os__
 
 `configure_gpio()`  
 
-# send 'next slide' command (launching) to remote (UI) slide deck
+_### send 'next slide' command (launching) to remote (UI) slide deck_ 
 
 class g:
 xDisplay = "192.168.1.1"	_### placeholder for remote address_
@@ -80,7 +80,7 @@ time.sleep(5)
 
 from __4Aspyx:__ import RClights1.py  
 
-# send 'next slide' command (scanning) to slide deck on remote machine
+_### send 'next slide' command (scanning) to remote (UI) slide deck_
 
 pyautogui.moveTo (x=210, y=595)  
 pyautogui.click  
