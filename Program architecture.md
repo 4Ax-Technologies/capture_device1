@@ -106,7 +106,7 @@ _### send 'next slide' command (completed) to remote (UI) slide deck_
 
 _### send 'next slide' command (reset to first slide: 4Ax Technologies) to remote (UI) slide deck_ 
 
-`pyautogui.moveTo (x=210, y=270)`
+`pyautogui.moveTo (x=210, y=270)`  
 `pyautogui.click`
 
 
