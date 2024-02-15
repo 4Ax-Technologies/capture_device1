@@ -1,4 +1,4 @@
-# rc1_run.py  and 4Axspyx
+# rc1_run.py 	 and 	4Axspyx
 
 The rc1_run.py program draws upon a diverse suite of libraries. One of these is __4Aspyx__, the 4Ax python plugin library.
 
