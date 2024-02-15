@@ -35,7 +35,7 @@ wbmode         : White balance affects the color temperature of the photo
 
 *  The (__kelvin colour temperature figures__) have been added to the factory details by 4Ax.
 
-*  Some of the colour temperature figures may vary somewhat depending on the online source
+*  Some of the colour temperature figures may vary somewhat depending on the source
 
 *  It is unfortunate that a neutral __4000k__ setting is not provided (perhaps try "(0): off")
 
