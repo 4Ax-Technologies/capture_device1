@@ -1,6 +1,7 @@
 # rc1_run.py
 
 The rc1_run.py program draws upon a diverse suite of libraries. One of these is __4Aspyx__, the 4Ax python plugin library.
+![setup_py](https://github.com/4Ax-Technologies/capture_device1/assets/90104815/b857e348-55a7-4e74-9396-85bd0f0d0fbb)
 
 __4Aspyx__ is not currently open source and the code offered below draws upon a number of __4Aspyx__ scripts. These scripts are unique to a particular use case and are therefore
 currently confidential. However the overarching architecture is clearly defined below.
