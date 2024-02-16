@@ -50,7 +50,7 @@ and the default values are 0.5:0.5:0.5:0.5, which will cause under-exposed image
 to adjust the values by trial and error and then re-compile the C++ file. 1.0:0.5:0.5:1.0 would be a better starting point, but some of these values will almost
 certainly need to be further increased
 
-Access gstreamer samples such as userAutoWhiteBalance on the Jetson Nano at:   
+Access __gstreamer__ samples such as userAutoWhiteBalance on the Jetson Nano at:   
 /usr/src/jetson_multimedia/api/argus/samples  
-__Note__ deepstream samples for setting the streaming pipeline are at:  
+__Note deepstream__ samples for setting the streaming pipeline are at:  
 /usr/src/jetson_multimedia/api/samples
