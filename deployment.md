@@ -1,11 +1,11 @@
 # Deployment on the edge device
 
-The network model was trained on Nvidia's TAO Toolkit, which generates a .tlt format file that is optimised for inference on the target device.
-Generate Encryption Key:
-Generate an encryption key that will be used to encrypt the model during conversion. This key will also be required for decryption during inference on the target device.
-Convert .tlt to .etlt:
-Use the Transfer Learning Toolkit to convert your .tlt model to a key-encrypted .etlt model. This process involves specifying the encryption key generated in the previous step.
-Deploy to Jetson Nano:
+The network model was trained on Nvidia's TAO Toolkit, which generates a .tlt format file that is optimised for inference on the target device.  
+
+The training process included the generation of an encryption key, whhich is used to encrypt the model during conversion to an .etlt file. The same key is required for decryption during 
+inference. The TAO Toolkit provides a link for downloading the converter.  
+
+
 Transfer the encrypted .etlt model file to your Jetson Nano device. Make sure you have the necessary environment set up on the Jetson Nano for running inference with encrypted models.
 Decryption Key Handling:
 Ensure that the decryption key is securely stored on the Jetson Nano device. You may want to integrate mechanisms to securely load and handle the decryption key during inference.
