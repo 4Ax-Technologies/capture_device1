@@ -43,7 +43,8 @@ A particularly significant capabability that is described in Pad Templates in th
 
 ### watch outs:
 
-*  In the default "(1): auto" mode consider whether damage could potentially affect the white balance and thus cause a mismatch with training data
+*  In the default "(1): auto" mode consider whether damage could potentially affect the white balance and thus cause a mismatch with training data: e.g crack damage to
+the wall of an enclosed space could result in daylight entering the inspection area
    
 *  "(9): manual" might look like an attractive option but it's default setting is unuseable: Gstreamer uses R:G:G:B values (Bayer-based) to set colour temperature 
 and the default values are 0.5:0.5:0.5:0.5, which will cause under-exposed images with a strong green bias in most use cases. To work with this mode it is necessary
