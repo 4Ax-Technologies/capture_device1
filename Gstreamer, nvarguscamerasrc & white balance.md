@@ -7,7 +7,7 @@ Use the command "$ gst-inspect-1.0 nvarguscamerasrc” to access factory details
 
 A particularly significant capabability that is described in Pad Templates in the factory details is:
 
-wbmode         : White balance affects the color temperature of the photo
+### wbmode         : White balance affects the color temperature of the photo
 
                         flags: readable, writable
                         
