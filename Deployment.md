@@ -15,5 +15,5 @@ After verifying that performance on the original hold back dataset was unchanged
 
 ### Security
 
-No security issues have currently been identified, but this will continue to be monitored.
+No security issues have currently been identified. Monitoring of this will be ongoing.
 
