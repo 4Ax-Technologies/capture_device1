@@ -24,7 +24,7 @@ pip install Jetson.GPIO
  
 pip3 install pyautogui	
 
-On Linux (Nano), you may need to install the scrot application, and Tkinter in the following order:
+On Linux (Nano), you may need to install the scrot application and Tkinter, in the following order:
 
 	sudo apt-get install python3-tk     
 	sudo apt-get install python3-dev  
