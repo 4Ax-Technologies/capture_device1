@@ -19,8 +19,7 @@ pip install opencv-python
 
 pip install Jetson.GPIO
 
-	sudo groupadd -f -r gpio
- 
+	sudo groupadd -f -r gpio  
 	sudo usermod -a -G gpio ### home directory
  
 pip3 install pyautogui	
