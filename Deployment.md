@@ -10,8 +10,8 @@ the key are handled within the RCalertLEDs1.py script. The capture device was th
 
 ### Performance  
 
-After verifying that performance on the original holdback dataset was unchanged, the network was deployed on new data. The performance described in 
-[__Network model.md__](https://github.com/4Ax-Technologies/capture_device1/blob/main/Network%20model.md) was repeated here.
+After verifying that performance on the original holdback dataset was unchanged, the network was deployed on new data. Performance similar to that described in 
+[__Network model.md__](https://github.com/4Ax-Technologies/capture_device1/blob/main/Network%20model.md) was achieved here on the new data.
 
 ### Security
 
