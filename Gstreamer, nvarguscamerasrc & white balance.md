@@ -48,7 +48,7 @@ A particularly significant capabability that is described in Pad Templates in th
 *  "(9): manual" might look like an attractive option but it's default setting is unuseable: Gstreamer uses R:G:G:B values (Bayer-based) to set colour temperature 
 and the default values are 0.5:0.5:0.5:0.5, which will cause under-exposed images with a strong green bias in most use cases. To work with this mode it is necessary
 to adjust the values by trial and error and then re-compile the C++ file. 1.0:0.5:0.5:1.0 would be a better starting point, but some of these values will almost
-certainly need to be further increased
+certainly need to be further adjusted
 
 *  Access __gstreamer__ samples such as userAutoWhiteBalance on the Jetson Nano at:   
 /usr/src/jetson_multimedia/api/argus/samples
