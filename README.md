@@ -6,7 +6,7 @@ capture_device1 is a framework for the semi-automated capturing of data from ina
 
 ### Information is provided here on:
 
-[__Gstreamer, nvarguscamerasrc & white balance__] (https://github.com/4Ax-Technologies/capture_device1/blob/main/Gstreamer%2C%20nvarguscamerasrc%20%26%20white%20balance.md)
+[__Gstreamer, nvarguscamerasrc & white balance__](https://github.com/4Ax-Technologies/capture_device1/blob/main/Gstreamer%2C%20nvarguscamerasrc%20%26%20white%20balance.md)
   
 __damagedetect50 network model__
   
