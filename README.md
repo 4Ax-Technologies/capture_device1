@@ -4,7 +4,7 @@ capture_device1 is a framework for the semi-automated capturing of data from ina
 
 ![database_collage_final](https://github.com/4Ax-Technologies/capture_device1/assets/90104815/3891e9af-66ed-4324-8eb5-f9847d1eec2d)
 
-Information is provided here on:
+### Information is provided here on:
 
 __Gstreamer, nvarguscamerasrc & white balance__
   
