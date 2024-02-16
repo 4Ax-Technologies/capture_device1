@@ -9,3 +9,8 @@ The same key is required for decryption during inference. The TAO Toolkit provid
 The encrypted .etlt model file was then transferred to the Jetson Nano inside the edge device with the decryption key securely stored on board. Security protocols for loading 
 the key are handled within the RCalertLEDs1.py script. The capture device was then tested for performance and security.
 
+### Performance  
+
+After verifying that performance on the original hold back dataset was unchanged, the network was deployed on new data. The performance described in [__Network model.md__]( was
+repeated here.
+
