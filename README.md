@@ -11,3 +11,8 @@ capture_device1 is a framework for the semi-automated capturing of data from ina
 [__damagedetect50 network model__](https://github.com/4Ax-Technologies/capture_device1/blob/main/Network%20model.md)
   
 [__rc1_run.py program architecture__](https://github.com/4Ax-Technologies/capture_device1/blob/main/Program%20architecture.md)
+
+[__deployment on the edge capture device__](https://github.com/4Ax-Technologies/capture_device1/blob/main/deployment.md)  
+
+
+code is also provided for [__rc1_run.py__](https://github.com/4Ax-Technologies/capture_device1/blob/main/rc1_run.py)
