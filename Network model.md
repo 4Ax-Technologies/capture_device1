@@ -2,7 +2,7 @@
 
 ![database_collage_final](https://github.com/4Ax-Technologies/capture_device1/assets/90104815/3891e9af-66ed-4324-8eb5-f9847d1eec2d)
 
-#### DamageDetectnet50 is a detectnet_v2 50 layer network model retrained on 4Ax's damage0.2  database using appropriate data augmentation.
+### DamageDetectnet50 is a detectnet_v2 50 layer network model retrained on 4Ax's damage0.2  database using appropriate data augmentation.
 
 Damage used for training included cracking of various types and sizes, deep scorching caused by lightning strikes and a range of delamination 
 instances. Approximately 100 configuration variables were tested through iterative tweaks to the configuration file. "healthy" and "damage" 
@@ -20,8 +20,8 @@ improvements in precision while remaining within operating capabilities.
 The top five performing models in precision evaluation were then tested with the holdback test material and the resulting images in each case 
 were assessed. It was noted that a single 1/3 x 1/3 50 epoch instance achieved a precision score of 95.108%, while the next 4 models were all 
 1/2 x 1/2 60 epoch models and yielded results between 93.6243% and 93.5988%. The results demonstrated that for this specific use case accuracy 
-(getting the class right) was more important than precision (drawing the bounding box in exactly the right place). In an autonomous vehicle 
-application precision would be more important.
+(getting the class right) was significantly more important than precision (drawing the bounding box in exactly the right place). In an autonomous 
+vehicle application precision would be more important.
 
 The test folder contained a 50/50 split of "healthy" and "damage" data. The 95.108% model demonstrated a disappointingly high predisposition 
 (nearly 50% of the time) to false negative inferences when presented with data containing damage; it was also similarly imprecise when it came 
