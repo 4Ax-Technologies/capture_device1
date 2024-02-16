@@ -62,39 +62,39 @@ pyautogui.click
 
 lights_on()
 
-`from __4Aspyx: import RCdist1.py`  
+from __4Aspyx: import RCdist1.py
 
-`print (d)`			_### d = number of seconds of capture device travel_
+print (d)		### d = number of seconds of capture device travel
 
-`from 4Aspyx: import RC2cameraCap.py`
+from 4Aspyx: import RC2cameraCap.py
 
-_### RC2cameraCap.py captures synch frames from 2 CSI cameras and saves to separate folders_  
+### RC2cameraCap.py captures synch frames from 2 CSI cameras and saves to separate folders
 
-_### send 'next slide' command (running) to remote (UI) slide deck_  
+### send 'next slide' command (running) to remote (UI) slide deck
 
-`pyautogui.moveTo (x=210, y=750)`  
-`pyautogui.click`  
+pyautogui.moveTo (x=210, y=750)
+pyautogui.click
 
-`from 4Aspyx:import RCalertLED1s.py`  
-`from 4Aspyx: import RCmotor1.py`  
+from 4Aspyx:import RCalertLED1s.py
+from 4Aspyx: import RCmotor1.py
 
-_### these light green LED; run motor; alert if damage data is present by switching green LED off and red LED on;_  
-_### finally the motor is run in reverse, returning the capture device to it's point of origin_  
+### these light green LED; run motor; alert if damage data is present by switching green LED off and red LED on;
+### finally the motor is run in reverse, returning the capture device to it's point of origin
 
-_### send 'next slide' command (completed) to remote (UI) slide deck_  
+### send 'next slide' command (completed) to remote (UI) slide deck
 
-`pyautogui.moveTo (x=210, y=950)`  
-`pyautogui.click`  
+pyautogui.moveTo (x=210, y=950)
+pyautogui.click
 
-`time.sleep(10)`  
+time.sleep(10)
 
-_### send 'next slide' command (reset to first slide: 4Ax Technologies) to remote (UI) slide deck_ 
+### send 'next slide' command (reset to first slide: 4Ax Technologies) to remote (UI) slide deck
 
-`pyautogui.moveTo (x=210, y=270)`  
-`pyautogui.click`
+pyautogui.moveTo (x=210, y=270)
+pyautogui.click
 
 
-`GPIO.cleanup()`
+GPIO.cleanup()
 
 
 
