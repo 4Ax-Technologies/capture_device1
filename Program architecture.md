@@ -44,7 +44,7 @@ On Linux (Nano), you may need to install the scrot application and Tkinter, in
 `import pyautogui`  
 `import Xlib`  
 `import time`  
-`import os`
+`import os`  
 `import 4Aspyx`
 
 _### gpio numbers set according to board pin layout_  
