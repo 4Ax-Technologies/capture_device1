@@ -6,11 +6,5 @@ The training process included the generation of an encryption key, whhich is use
 inference. The TAO Toolkit provides a link for downloading the converter.  
 
 
-Transfer the encrypted .etlt model file to your Jetson Nano device. Make sure you have the necessary environment set up on the Jetson Nano for running inference with encrypted models.
-Decryption Key Handling:
-Ensure that the decryption key is securely stored on the Jetson Nano device. You may want to integrate mechanisms to securely load and handle the decryption key during inference.
-Inference with Encrypted Model:
-Develop or modify your inference application on the Jetson Nano to load and execute the encrypted .etlt model. Ensure that the decryption key is used to decrypt the model during inference.
-Testing and Validation:
-Test your deployment thoroughly to ensure that the encrypted model performs as expected on the Jetson Nano. Validate both the performance and security aspects of the deployment.
-By following these steps, you'll be able to convert your .tlt model into a key-encrypted .etlt model for deployment on a Jetson Nano, ensuring both performance and security in your edge device deployment.
+The encrypted .etlt model file was then transferred to the Jetson Nano device with the decryption key securely stored on board. Security protocols for loading the key are handled within the RCalertLEDs1.py script. The capture device was then tested for performance and security.
+
