@@ -2,7 +2,10 @@
 
 ![database_collage_final](https://github.com/4Ax-Technologies/capture_device1/assets/90104815/3891e9af-66ed-4324-8eb5-f9847d1eec2d)
 
-### DamageDetectnet50 is a detectnet_v2 50 layer network model retrained on 4Ax's damage0.2  database using appropriate data augmentation.
+### DamageDetectnet50 is a detectnet_v2 50 layer network model retrained on 4Ax's damage0.2 database 
+
+__damage0.2__ comprises a mixture of real-world generated images and diffusion-generated synthetic data. In training the database was further
+augmented using standard data augmentation techniques.
 
 Damage used for training included cracking of various types and sizes, deep scorching caused by lightning strikes and a range of delamination 
 instances. Approximately 100 configuration variables were tested through iterative tweaks to the configuration file. "healthy" and "damage" 
