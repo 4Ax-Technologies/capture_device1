@@ -12,22 +12,20 @@ pip3 install pyautogui
 ###	sudo apt-get install python3-tk     
 ###	sudo apt-get install python3-dev  
 ###	sudo apt-get install scrot  
-	
+
+import os 
+import cv2
+import time  
+import numpy as np  
 import glob	  
 import sys	  
 import pandas as pd  
 import pathlib  
-import Jetson.GPIO as GPIO 
-
-from threading import Thread  
-from gi.repository import Gst, GObject
-
-import cv2  
-import numpy as np  
-import pyautogui
 import Xlib  
-import time  
-import os  
+import Jetson.GPIO as GPIO  
+import pyautogui  
+from threading import Thread  
+from gi.repository import Gst, GObject  
 import 4Aspyx
 
 ### gpio numbers set according to board pin layout_  
