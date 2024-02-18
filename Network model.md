@@ -8,13 +8,13 @@ __damage0.2__ comprises a mixture of real-world generated images and diffusion-g
 augmented using standard data augmentation techniques.
 
 Damage used for training included cracking of various types and sizes, deep scorching caused by lightning strikes and a range of delamination 
-instances. Approximately 200 network hyperparameters were tuned through iterative tweaks to the configuration file. Initially "healthy" and "damage" 
+instances. 100+ network hyperparameters were tuned through iterative tweaks to the configuration file. Initially "healthy" and "damage" 
 classes were used, but it turns out that end-users are only interested in whether damage is present. Therefore the damage0.2  database 
 uses a single class, where each image has a matching label, consisting of coordinates of the damage bounding box. In practice this is the x and 
 y coordinates (in pixels) of the top left and bottom right corners. Early (2 class) training limited the number of training epochs to 10, but by 
-the time the single class was implemented precision scores in the evaluation phase of 90%+ were routinely bring achieved. The number of training 
-epochs was therefore gradually increased until 93% was routinely achieved during 30+ epochs of training, best performance generally occurred 
-between the 10th and 25th epochs. 
+the time the single class strategy was implemented precision scores in the evaluation phase of 90%+ were routinely bring achieved. The number of 
+training epochs was therefore gradually increased along with appropriate changes to the learning rate in the very early and very late stages 
+until 93% was routinely achieved during 30+ epochs of training, best performance generally occurred between the 10th and 25th epochs. 
 
 At this point only 2 main parameters were still being tweaked, one of which was the pixel resolution to which the model resized training data 
 before training commenced. Moving from 1/4 x 1/4 of the capture device resolution, through 1/3 x 1/3, then 1/2 x 1/2 resizing brought significant
@@ -22,7 +22,7 @@ improvements in precision while remaining within operating capabilities.
 
 The top five performing models in precision evaluation were then tested with the holdback test material and the resulting images in each case 
 were assessed. It was noted that a single 1/3 x 1/3 50 epoch instance achieved a precision score of 95.108%, while the next 4 models were all 
-1/2 x 1/2 60 epoch models and yielded results between 93.6243% and 93.5988%. The results demonstrated that for this specific use case accuracy 
+1/2 x 1/2 60 epoch models and yielded results between 93.5988% and 93.6243%. The results demonstrated that for this specific use case accuracy 
 (getting the class right) was significantly more important than precision (drawing the bounding box in exactly the right place). In an autonomous 
 vehicle application precision would be more important.
 
