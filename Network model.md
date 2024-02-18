@@ -8,8 +8,8 @@ __damage0.2__ comprises a mixture of real-world generated images and diffusion-g
 augmented using standard data augmentation techniques.
 
 Damage used for training included cracking of various types and sizes, deep scorching caused by lightning strikes and a range of delamination 
-instances. Approximately 200 network hyperparameters were tuned through iterative tweaks to the configuration file. "healthy" and "damage" 
-classes were used initially, but it turns out that end-users are only interested in whether damage is present. Therefore the damage0.2  database 
+instances. Approximately 200 network hyperparameters were tuned through iterative tweaks to the configuration file. Initially "healthy" and "damage" 
+classes were used, but it turns out that end-users are only interested in whether damage is present. Therefore the damage0.2  database 
 uses a single class, where each image has a matching label, consisting of coordinates of the damage bounding box. In practice this is the x and 
 y coordinates (in pixels) of the top left and bottom right corners. Early (2 class) training limited the number of training epochs to 10, but by 
 the time the single class was implemented precision scores in the evaluation phase of 90%+ were routinely bring achieved. The number of training 
