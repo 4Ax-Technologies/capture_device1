@@ -25,13 +25,13 @@ improvements in precision while remaining within operating capabilities.
 ### Testing and results
 The top five performing models in precision evaluation were then tested with the holdback test dataset and the resulting images in each case 
 were assessed. It was noted that a single 1/3 x 1/3 50 epoch instance achieved a precision score of 95.108%, while the next 4 models were all 
-1/2 x 1/2 60 epoch models and yielded results between 93.5988% and 93.6243%. The results demonstrated that for this specific use case accuracy 
-(getting the class right) was significantly more important than precision (drawing the bounding box in exactly the right place). In an autonomous 
-vehicle application precision would be more important.
+1/2 x 1/2 60 epoch models and yielded results between 93.5988% and 93.6243%. The holdback test subset consisted of a 50/50 split of "healthy" and 
+"damage" data.
 
-The holdback test subset consisted of a 50/50 split of "healthy" and "damage" data. The 95.108% model demonstrated a disappointingly high 
-predisposition to false negative inferences (nearly 50% of the time) when presented with data containing damage; it was also similarly imprecise 
-when it came to classifying healthy data, again inferring nearly 50% false positives.
+The results demonstrated that for this specific use case accuracy (getting the class right) was significantly more important than precision (drawing 
+the bounding box in exactly the right place). In an autonomous vehicle application precision would be more important. The 95.108% model demonstrated 
+a disappointingly high predisposition to false negative inferences (nearly 50% of the time) when presented with data containing damage; it was also 
+similarly imprecise when it came to classifying healthy data, again inferring nearly 50% false positives.
 
 A 93.5988% precision model delivered 100% accuracy, but this achievement was undermined by an unacceptably high tendency (nearly 60%) 
 to infer false positives (predicting damage when there was none). This would quickly become irritating for the inspection technician, who would 
