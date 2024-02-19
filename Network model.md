@@ -20,15 +20,15 @@ between the 10th and 25th epochs.
 
 At this point only 2 main parameters were still being tweaked, one of which was the pixel resolution to which the model resized training data 
 before training commenced. Moving from 1/4 x 1/4 of the capture device resolution, through 1/3 x 1/3, then 1/2 x 1/2 resizing brought significant
-improvements in precision while remaining within operating capabilities. 
+improvements in precision while remaining within operating capabilities.  
 
-The top five performing models in precision evaluation were then tested with the holdback test material and the resulting images in each case 
+### Testing and results
+The top five performing models in precision evaluation were then tested with the holdback test dataset and the resulting images in each case 
 were assessed. It was noted that a single 1/3 x 1/3 50 epoch instance achieved a precision score of 95.108%, while the next 4 models were all 
 1/2 x 1/2 60 epoch models and yielded results between 93.5988% and 93.6243%. The results demonstrated that for this specific use case accuracy 
 (getting the class right) was significantly more important than precision (drawing the bounding box in exactly the right place). In an autonomous 
 vehicle application precision would be more important.
 
-### Testing and results
 The holdback test subset consisted of a 50/50 split of "healthy" and "damage" data. The 95.108% model demonstrated a disappointingly high 
 predisposition to false negative inferences (nearly 50% of the time) when presented with data containing damage; it was also similarly imprecise 
 when it came to classifying healthy data, again inferring nearly 50% false positives.
