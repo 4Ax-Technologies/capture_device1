@@ -2,11 +2,12 @@
 
 ![database_collage_final](https://github.com/4Ax-Technologies/capture_device1/assets/90104815/3891e9af-66ed-4324-8eb5-f9847d1eec2d)
 
-### DamageDetectnet50 is a detectnet_v2 50 layer network model retrained on 4Ax's damage0.2 database 
+## DamageDetectnet50 is a detectnet_v2 50 layer network model retrained on 4Ax's damage0.2 database 
 
 __damage0.2__ comprises a mixture of real-world curated images and diffusion-generated synthetic data. In training the database was further
 augmented using standard data augmentation techniques.
 
+### Training
 Damage used for training included cracking of various types and sizes, deep scorching caused by lightning strikes and a range of delamination 
 instances. 100+ network hyperparameters were tuned through iterative tweaks to the configuration file. Initially "healthy" and "damage" 
 classes were used, but it turns out that end-users are only interested in whether damage is present: "healthy" is considered the norm. Therefore 
@@ -27,9 +28,10 @@ were assessed. It was noted that a single 1/3 x 1/3 50 epoch instance achieved a
 (getting the class right) was significantly more important than precision (drawing the bounding box in exactly the right place). In an autonomous 
 vehicle application precision would be more important.
 
-The test folder contained a 50/50 split of "healthy" and "damage" data. The 95.108% model demonstrated a disappointingly high predisposition 
-to false negative inferences (nearly 50% of the time) when presented with data containing damage; it was also similarly imprecise when it came 
-to classifying healthy data, again inferring nearly 50% false positives.
+### Testing and results
+The holdback test subset consisted of a 50/50 split of "healthy" and "damage" data. The 95.108% model demonstrated a disappointingly high 
+predisposition to false negative inferences (nearly 50% of the time) when presented with data containing damage; it was also similarly imprecise 
+when it came to classifying healthy data, again inferring nearly 50% false positives.
 
 A 93.5988% precision model delivered 100% accuracy, but this achievement was undermined by an unacceptably high tendency (nearly 60%) 
 to infer false positives (predicting damage when there was none). This would quickly become irritating for the inspection technician, who would 
