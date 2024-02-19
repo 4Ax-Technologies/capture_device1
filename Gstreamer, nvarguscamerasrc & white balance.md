@@ -5,7 +5,7 @@ and https://gstreamer.freedesktop.org/documentation/
 Many diverse use cases are described in the Nvidia Gstreamer documentation and a good deal of patience is required to identify that the
 __nvarguscamerasrc__ plugin is the most appropriate plugin to use in a capture device pipeline such as this.
 The simplest to glean information regarding best practice for deploying nvarguscamerasrc pipelines is to work on the Nvidia processor itself 
-where, it turns out, Gstreamer stores all it multimedia plugins at the path shown at the end.
+where, it turns out, Gstreamer stores all it's multimedia plugins at the path shown at the end.
 Use the command "$ gst-inspect-1.0 nvarguscamerasrc” to access factory details on the machine. 
 
 A particularly significant capabability that is described in Pad Templates in the factory details is:
