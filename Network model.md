@@ -37,8 +37,8 @@ A 93.5988% precision model delivered 100% accuracy, but this achievement was und
 to infer false positives (predicting damage when there was none). This would quickly become irritating for the inspection technician, who would 
 feel personally validated when occasionally being required to step in to overrule the network, but not in 60% of cases.
 
-The best results were achieved by one of the two 93.6243% precision models. While it also exhibited 100% accuracy, it demonstrated a reduced 
-tendency (around 20%) to inferring false positives. Occasionally the bounding box that the model overlaid onto damage did not intersect precisely. 
+The best results were achieved by one of the two 93.6243% precision models. While it also exhibited 100% accuracy, it demonstrated a much lower 
+tendency (below 20%) to infer false positives. Occasionally the bounding box that the model overlaid onto damage did not intersect precisely. 
 However the accuracy of the retrained DamageDetectnet50 network is remarkable, demonstrating the value of transfer learning when applied to a 
 detectnet_v2 network, and overall the implementation of this network would represent a significant lightening of the current burden on human 
 resources in the particular use case.
