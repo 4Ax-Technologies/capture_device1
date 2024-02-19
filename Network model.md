@@ -15,8 +15,8 @@ the damage0.2  database uses a single class, where each image has a matching lab
 practice this is the x and y pixel coordinates of the top left and bottom right corners. Early (2 class) training limited the number of training 
 epochs to 10, but by the time the single class strategy was adopted precision scores in the evaluation phase of 90%+ were routinely achieved. 
 The number of training epochs was therefore gradually increased, along with corresponding reductions to the learning rate over a greater proportion 
-of training in the earlier and very late stages, until 93% was routinely achieved during 30+ epochs of training, best performance generally occurred 
-between the 10th and 25th epochs. 
+of training in the earlier and very late stages, until 93% was routinely achieved during 30+ epochs of training. Best performance generally 
+occurred between the 10th and 25th epochs. 
 
 At this point only 2 main parameters were still being tweaked, one of which was the pixel resolution to which the model resized training data 
 before training commenced. Moving from 1/4 x 1/4 of the capture device resolution, through 1/3 x 1/3, then 1/2 x 1/2 resizing brought significant
