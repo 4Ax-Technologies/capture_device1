@@ -31,7 +31,7 @@ were assessed. It was noted that a single 1/3 x 1/3 50 epoch instance achieved a
 The results demonstrated that for this specific use case accuracy (getting the class right) was significantly more important than precision (drawing 
 the bounding box in exactly the right place). In an autonomous vehicle application precision would be more important. The 95.108% model demonstrated 
 a disappointingly high predisposition to false negative inferences (nearly 50% of the time) when presented with data containing damage; it was also 
-similarly imprecise when it came to classifying healthy data, again inferring nearly 50% false positives.
+similarly imaccurate when it came to classifying healthy data, again inferring nearly 50% false positives.
 
 A 93.5988% precision model delivered 100% accuracy, but this achievement was undermined by an unacceptably high tendency (nearly 60%) 
 to infer false positives (predicting damage when there was none). This would quickly become irritating for the inspection technician, who would 
