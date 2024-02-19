@@ -1,8 +1,8 @@
 # Gstreamer, nvarguscamerasrc & white balance
 
 The Gstreamer manual is at: https://gstreamer.freedesktop.org/documentation/tutorials/basic/gstreamer-tools.html?gi-language=c
-https://gstreamer.freedesktop.org/documentation/
-The most efficient way to glean information regarding best practice for preparing Gstreamer pipelines is to work on the Nvidia processor itself.
+https://gstreamer.freedesktop.org/documentation/  
+The most concise way to glean information regarding best practice for preparing Gstreamer pipelines is to work on the Nvidia processor itself.
 Use the command "$ gst-inspect-1.0 nvarguscamerasrc” to access factory details on the machine. 
 
 A particularly significant capabability that is described in Pad Templates in the factory details is:
