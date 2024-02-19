@@ -4,17 +4,18 @@
 
 ### DamageDetectnet50 is a detectnet_v2 50 layer network model retrained on 4Ax's damage0.2 database 
 
-__damage0.2__ comprises a mixture of real-world generated images and diffusion-generated synthetic data. In training the database was further
+__damage0.2__ comprises a mixture of real-world curated images and diffusion-generated synthetic data. In training the database was further
 augmented using standard data augmentation techniques.
 
 Damage used for training included cracking of various types and sizes, deep scorching caused by lightning strikes and a range of delamination 
 instances. 100+ network hyperparameters were tuned through iterative tweaks to the configuration file. Initially "healthy" and "damage" 
-classes were used, but it turns out that end-users are only interested in whether damage is present. Therefore the damage0.2  database 
-uses a single class, where each image has a matching label, consisting of coordinates of the damage bounding box. In practice this is the x and 
-y coordinates (in pixels) of the top left and bottom right corners. Early (2 class) training limited the number of training epochs to 10, but by 
-the time the single class strategy was implemented precision scores in the evaluation phase of 90%+ were routinely bring achieved. The number of 
-training epochs was therefore gradually increased along with appropriate changes to the learning rate in the very early and very late stages 
-until 93% was routinely achieved during 30+ epochs of training, best performance generally occurred between the 10th and 25th epochs. 
+classes were used, but it turns out that end-users are only interested in whether damage is present: "healthy" is considered the norm. Therefore 
+the damage0.2  database uses a single class, where each image has a matching label, consisting of coordinates of the damage bounding box. In 
+practice this is the x and y pixel coordinates of the top left and bottom right corners. Early (2 class) training limited the number of training 
+epochs to 10, but by the time the single class strategy was adopted precision scores in the evaluation phase of 90%+ were routinely bring achieved. 
+The number of training epochs was therefore gradually increased along with corresponding reductions to the learning rate over a greater proportion 
+of training in the earlier and very late stages until 93% was routinely achieved during 30+ epochs of training, best performance generally occurred 
+between the 10th and 25th epochs. 
 
 At this point only 2 main parameters were still being tweaked, one of which was the pixel resolution to which the model resized training data 
 before training commenced. Moving from 1/4 x 1/4 of the capture device resolution, through 1/3 x 1/3, then 1/2 x 1/2 resizing brought significant
