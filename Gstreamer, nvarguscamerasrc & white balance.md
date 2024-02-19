@@ -37,7 +37,7 @@ A particularly significant capabability that is described in Pad Templates in th
 
 *  Some of the colour temperature figures vary somewhat depending on the reference source
 
-*  It is unfortunate that a neutral __4000k__ setting is not provided (perhaps try "(0): off")
+*  It is noteworthy that a neutral __4000k__ setting is not provided (if you are looking for this perhaps try "(0): off" before using (9): manual")
 
 *  The choice of mode setting will depend on the individual use case: location, hardware and training data.
 
