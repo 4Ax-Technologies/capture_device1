@@ -1,9 +1,9 @@
 # Gstreamer, nvarguscamerasrc & white balance
 
-The Gstreamer manual is at: https://gstreamer.freedesktop.org/documentation/tutorials/basic/gstreamer-tools.html?gi-language=c
+The __Gstreamer__ manual is at: https://gstreamer.freedesktop.org/documentation/tutorials/basic/gstreamer-tools.html?gi-language=c
 and https://gstreamer.freedesktop.org/documentation/  
 Many diverse use cases are described in the Nvidia Gstreamer documentation and a good deal of patience was required to identify that the
-nvarguscamerasrc plugin is the most appropriate plugin to use in the capture device pipeline.
+__nvarguscamerasrc__ plugin is the most appropriate plugin to use in the capture device pipeline.
 The simplest to glean information regarding best practice for deploying nvarguscamerasrc pipelines is to work on the Nvidia processor itself 
 where, it turns out, Gstreamer stores all it multimedia plugins at the path shown at the end.
 Use the command "$ gst-inspect-1.0 nvarguscamerasrc” to access factory details on the machine. 
