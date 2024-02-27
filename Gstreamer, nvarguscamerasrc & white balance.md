@@ -50,7 +50,7 @@ the wall of an enclosed space could result in daylight entering the inspection a
    
 *  "(9): manual" might look like an attractive option but it's default setting is unuseable: Gstreamer uses R:G:G:B values (Bayer-based) to set colour temperature 
 and the default values are: "r:%0.3f gO:%0.3f gE:%0.3f b:%0.3f\n", which will cause under-exposed images with a strong green bias in most use cases. To work with this mode
-it is necessary to adjust the values by trial and error and then re-compile the C++ file. "r:%1.0f gO:%0.5f gE:%0.5f b:%1.0f\n" would be a better starting point, but some
+it is necessary to adjust the values by trial and error and then re-compile the C++ file, "main.cpp".   "r:%1.0f gO:%0.5f gE:%0.5f b:%1.0f\n" would be a better starting point, but some
 of these values will almost certainly need to be further adjusted.
 
 *  When searching for examples of nvarguscamerasrc usage, search engines and LLMs often turn up examples from the depracated predecessor, nvcamerasrc. 'Argus' is a reference
