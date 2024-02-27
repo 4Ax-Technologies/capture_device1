@@ -54,7 +54,7 @@ it is necessary to adjust the values by trial and error and then re-compile the 
 of these values will almost certainly need to be further adjusted.
 
 *  When searching for examples of nvarguscamerasrc usage, search engines and LLMs often turn up examples from the depracated predecessor, nvcamerasrc. 'Argus' is a reference
-from Greek legend to a many-eyed (i.e multi-camera stream) god. Some helpful insights on how to get optimal results using nvarguscamera can be found at [this site](https://toptechboy.com/jetson-xavier-nx-lesson-4-understanding-and-using-gstreamer-for-absolute-beginners/) . 
+from Greek legend to a many-eyed (i.e multi-camera stream) god. Some helpful insights on how to get optimal results using nvarguscamerasrc can be found at [this site](https://toptechboy.com/jetson-xavier-nx-lesson-4-understanding-and-using-gstreamer-for-absolute-beginners/) . 
 
 *  Access __gstreamer__ samples such as userAutoWhiteBalance on the Jetson Nano at:   
 /usr/src/jetson_multimedia/api/argus/samples. The R:G:G:B values referred to above are found in /userAutoWhiteBalance/main.cpp .
