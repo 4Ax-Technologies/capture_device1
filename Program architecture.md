@@ -9,7 +9,7 @@ __4Aspyx__ is not currently open source and the code offered below draws upon a 
 currently confidential. However the overarching architecture is clearly defined below.
 
 
-open cv2 and python 3.6 & 3.8 need to be installed on capture device/Hardware/Nano
+open cv2 and python 3.6 & 3.8 need to be installed on capture device/Hardware/Nvidia Jetson Nano
 
 debugging needs to be completed on a Linux computer or virtual environment as opencv-python wheel will not build on (e.g) Mac OS 10.15
 
