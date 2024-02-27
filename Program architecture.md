@@ -45,7 +45,7 @@ On Linux (Nano), you may need to install the scrot application and Tkinter, in
 `from gi.repository import Gst, GObject`  
 `import 4Aspyx`
 
-_### gpio numbers set according to board pin layout_  
+<p style="color:dark green">_### gpio numbers set according to board pin layout_.</p>  
 
 `GPIO.setmode(GPIO.BOARD)`			
 
