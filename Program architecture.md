@@ -30,8 +30,8 @@ On Linux (Nano), you may need to install the scrot application and Tkinter, in
 	sudo apt-get install python3-dev  
 	sudo apt-get install scrot  
 	
-`import os` 
-`import cv2`
+`import os`  
+`import cv2`  
 `import time`  
 `import numpy as np`  
 `import glob`	  
