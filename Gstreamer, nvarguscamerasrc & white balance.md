@@ -57,7 +57,7 @@ of these values will almost certainly need to be further adjusted.
 from Greek legend to a many-eyed (i.e multi-camera stream) god. Some helpful insights on how to get optimal results using nvarguscamerasrc can be found at [this site](https://toptechboy.com/jetson-xavier-nx-lesson-4-understanding-and-using-gstreamer-for-absolute-beginners/) . 
 
 *  Access __gstreamer__ samples such as userAutoWhiteBalance on the Jetson Nano at:   
-/usr/src/jetson_multimedia/api/argus/samples. The R:G:G:B values referred to above are found in /userAutoWhiteBalance/main.cpp .
+/usr/src/jetson_multimedia/api/argus/samples. The R:G:G:B values referred to above are found in /userAutoWhiteBalance/main.cpp  
 
 *  __Note deepstream__ samples for setting the streaming pipeline are at:  
 /usr/src/jetson_multimedia/api/samples
